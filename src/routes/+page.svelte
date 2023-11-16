@@ -15,6 +15,10 @@
         scale: 0.4,
     }
 
+    function gotoVipps() {
+      window.location.href = "https://qr.vipps.no/28/2/01/031/4794977556?v=1";
+    }
+
 </script>
 
 <div class="title">
@@ -30,12 +34,18 @@
 <div class="undertitle">
   TIPS: last inn siden på nytt for å resette
 </div>
-
+<div class="center">
+  <button on:click={gotoVipps}>Gå til VIPPS</button>
+</div>
 <Canvas rendererParameters={{ antialias: false }}>
     <Scene/>
 </Canvas>
 
-<div class="watermark">Inntektene går til gode hensikter for 2MDA - Nettside laget av Sverre</div>
+
+
+<div class="watermark">Inntektene går til gode hensikter for 2MDA - Nettside laget av Sverre
+ 
+</div>
 
 <!-- <script lang="ts">
     import { Canvas } from '@threlte/core'
@@ -90,6 +100,9 @@
     color:white;
     font-size: 1.2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  .center {
     text-align: center;
   }
 
