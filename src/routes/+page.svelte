@@ -81,14 +81,14 @@
 <style>
   .title {
     color:orange;
-    font-size: 4em;
+    font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
   }
 
   .undertitle {
     color:white;
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
   }

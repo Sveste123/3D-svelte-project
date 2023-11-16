@@ -103,7 +103,7 @@
 
 <T.PerspectiveCamera
         makeDefault
-        position={[0, 4, 7]}
+        position={[0, 4, 10]}
         target={[0, 2, 0]}
         rotation={[0, 40, 0]}
         on:create={({ ref }) => {
@@ -125,14 +125,15 @@
 
 <Text
   text="Sum: {sum},- kr
-  Vipps til 94977556"
+  Vipps til 94977556
+  (scan QR på veggen)"
   interactive
   fontSize={0.25}
   anchorY="100%"
   anchorX="50%"
   rotation.y={0 * DEG2RAD}
-  position.y={4.1}
-  position.x={2}
+  position.y={5}
+  position.x={0}
   {color}
 />
 
@@ -150,7 +151,7 @@
   anchorY="100%"
   anchorX="50%"
   rotation.y={0 * DEG2RAD}
-  position={[-2, 0.9, 0.27]}
+  position={[-1.3, 0.9, 0.27]}
   color=grey
 />
 
@@ -159,7 +160,7 @@
     interactive
     on:pointerdown={onCoffeePointerDown}
     on:pointerup={onCoffeePointerUp}
-    position={[-0.82, 0, 0]}
+    position={[0, 0, 0]}
     scale={coffeeScale}
     castShadow
     receiveShadow
@@ -170,7 +171,7 @@
     interactive
     on:pointerdown={onCakePointerDown}
     on:pointerup={() => onCakePointerUp()}
-    position={[-0.6, 1.6, 0.27]}
+    position={[0.2, 1.6, 0.27]}
     scale={cakeScale}
     rotation={[-1.6, 0, -2]}
     castShadow
@@ -183,7 +184,7 @@
     interactive
     on:pointerdown={onFarikalPointerDown}
     on:pointerup={() => onFarikalPointerUp()}
-    position={[-0.95, 2.8, 0.27]}
+    position={[-0.2, 2.8, 0.27]}
     scale={farikalScale}
     rotation={[-1.6, 0, -2]}
     castShadow
@@ -195,7 +196,7 @@
     interactive
     on:pointerdown={onSaftPointerDown}
     on:pointerup={() => onSaftPointerUp()}
-    position={[-0.95, 3.75, 0.27]}
+    position={[-0.2, 3.75, 0.27]}
     scale={saftScale}
     rotation={[-1.6, 0, -2]}
     castShadow
