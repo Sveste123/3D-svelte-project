@@ -25,17 +25,17 @@
   Legg sammen varene først ved å trykke på dem, 
 </div>
 <div class="undertitle">
-  da går det kjappere fremme i 2MDA-Kaféen,
+  da går det kjappere fremme i 2MDA-Kaféen😉,
 </div>
 <div class="undertitle">
-  last inn siden på nytt for å resette
+  TIPS: last inn siden på nytt for å resette
 </div>
 
 <Canvas rendererParameters={{ antialias: false }}>
     <Scene/>
 </Canvas>
 
-
+<div class="watermark">Inntektene går til gode hensikter for 2MDA - Nettside laget av Sverre</div>
 
 <!-- <script lang="ts">
     import { Canvas } from '@threlte/core'
@@ -88,8 +88,18 @@
 
   .undertitle {
     color:white;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+  }
+
+  .watermark {
+    position: fixed;
+    bottom: 5px;
+    left: 7px;
+    font-size: 23px;
+    color: #999;
+    text-align: center;
+    border-top: none;
   }
 </style>
