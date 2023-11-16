@@ -103,7 +103,7 @@
 
 <T.PerspectiveCamera
         makeDefault
-        position={[0, 5.3, 8.2]}
+        position={[-0.2, 7, 8.3]}
         target={[0, 2, 0]}
         rotation={[0, 40, 0]}
         on:create={({ ref }) => {
@@ -112,7 +112,7 @@
     >
         <OrbitControls
         enableDamping
-        target={[0, 2, 0]}
+        target={[-0.2, 2, 0]}
         />
 
 </T.PerspectiveCamera>
