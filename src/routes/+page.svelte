@@ -35,7 +35,7 @@
   TIPS: last inn siden på nytt for å resette
 </div>
 <div class="center">
-  <button on:click={gotoVipps}>Gå til VIPPS</button>
+  <button class="centerButton" on:click={gotoVipps}>Gå til VIPPS</button>
 </div>
 <Canvas rendererParameters={{ antialias: false }}>
     <Scene/>
@@ -104,6 +104,11 @@
   }
   .center {
     text-align: center;
+  }
+
+  .centerButton {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
   }
 
   .watermark {
