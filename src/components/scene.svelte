@@ -103,7 +103,7 @@
 
 <T.PerspectiveCamera
         makeDefault
-        position={[0, 6, 6.2]}
+        position={[0, 5.3, 8.2]}
         target={[0, 2, 0]}
         rotation={[0, 40, 0]}
         on:create={({ ref }) => {
